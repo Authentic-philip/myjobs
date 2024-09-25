@@ -1,0 +1,140 @@
+.body{
+    background-color: rgb(0, 255, 200);
+}
+.work{
+    width: 290px;
+    height: 320px;
+    border: solid lightblue;
+    margin: auto;
+    margin-top: 6px;
+    background-color: lightblue;
+    border-radius: 4px;
+}
+.regborder{
+    width: 280px;
+    height: 20px;
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.name{
+    display: inline;
+    border: none;
+    color: white;
+    margin-left: 15px;
+    text-transform: capitalize;
+}
+.last{
+    display: inline;
+    border: none;
+    color: white;
+    margin-left: 70px;
+    text-transform: capitalize;
+}
+.firstborder{
+    display: inline-block;
+    width: 110px;
+    height: 25px;
+    border: 1px solid white;
+    margin-top: 2px;
+    margin-left: 15px;
+    border-radius: 3px;
+}
+.secondborder{
+    display: inline-block;
+    width: 110px;
+    height: 25px;
+    border: 1px solid white;
+    margin-top: 2px;
+    margin-left: 30px;
+    border-radius: 3px;
+}
+.mail{
+    border: none;
+    color: white;
+    margin-left: 15px;
+    text-transform: capitalize;
+}
+.mailborder{
+    width: 255px;
+    height: 25px;
+    border: 1px solid white;
+    margin-left: 17px;
+    border-radius: 3px;
+}
+.gender{
+    border: none;
+    color: white;
+    margin-left: 15px;
+    text-transform: capitalize;
+    margin-top: 2px;
+}
+.genderborder{
+    width: 255px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: lightblue;
+    margin-left: 17px; 
+    color: white; 
+}
+.male{
+    width: 80px;
+    height: 15px;
+    border: 1px solid blue;
+    background-color: blue;
+    border-radius: 3px;
+    text-transform: capitalize;
+    margin-right: 15px;
+}
+.famale{
+    display: inline-block;
+    border: none;
+    margin-left: 30px;
+    text-transform: capitalize; 
+}
+.country{
+    border: none;
+    margin-top: 2px;
+    color: white;
+    background-color: lightblue ;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+.countryborder{
+    width: 255px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-left: 17px;
+    margin-top: 2px;
+}
+.coun{
+   border: none;
+   margin-top: 2px;
+   color: white;
+   text-transform: capitalize;
+   margin-left: 15px; 
+}
+.counborder{
+    width: 255px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-left: 15px;
+}
+.register{
+    width: 255px;
+    height: 25px;
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 9px;
+    margin-left: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}

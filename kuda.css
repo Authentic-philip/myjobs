@@ -1,0 +1,340 @@
+body{
+    margin: 0%;
+    background-color: black;
+}
+.border{
+    width: 330px;
+    height: 500px;
+    margin: auto;
+    margin-top: 10px;
+    border: 2px solid white;
+    background-color: whitesmoke;
+}
+.round{
+    width: 45px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url("popout.jfif");
+    background-size: 100% 100%;
+    margin-top: 7px;
+    margin-left: 9px;
+}
+.hi{
+    margin-left: 60px;
+    margin-top: -30px;
+    font-weight: bold;
+    font-size: px;
+    text-transform: capitalize;
+}
+.icon{
+    margin-top: -10px;
+    margin-left: 300px;
+    color: rgb(36, 3, 36);
+}
+.border button{
+    margin-top: 30px;
+    margin-left: 17px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px #cbced1, -3px -3px 7px white;;
+    border: white;
+    background-color: white;
+    text-transform: capitalize;
+    color: grey;
+}
+.naira{
+    margin-left: 45px;
+    margin-top: -15px;
+    text-transform: capitalize;
+    font-size: 11px;
+    font: bolder;
+}
+.smallround{
+   width: 27px;
+   height: 26px;
+   border: 1px solid rgb(233, 226, 226);
+   border-radius: 50%; 
+   text-align: center;
+   text-transform: uppercase;
+   font: 1000;
+   font-size: larger;
+   float: right;
+   margin-top: 14px;
+   margin-right: 5px;
+   background-color: rgb(233, 226, 226);
+}
+.cash{
+    margin-top: 13px;
+    margin-left: 20px;
+    font: bolder;
+    font-size: 20px;
+}
+.last{
+    font: 100;
+    font-size: 10px;
+    text-transform: capitalize;
+    margin-top: -2px;
+    margin-left: 20px;
+    color: grey;
+}
+.tf{
+    position: absolute;
+    width: 130px;
+    height: 35px;
+    box-shadow: 3px 3px 3px #cbced1, -3px -3px 7px white;
+    margin-top: 19px;
+    margin-left: 20px;
+    background-color: whitesmoke;
+}
+.tf button{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border: 3px solid rgb(36, 3, 36);
+    background-color: rgb(36, 3, 36);
+    color: white;
+    text-align: center; 
+    margin-top: 7px;
+    margin-left: 5px;
+}
+.tf2{
+    margin-left: 30px;
+    margin-top: 10px;
+    color: rgb(36, 3, 36);
+    font-size: 12;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.add{
+    width: 130px;
+    height: 35px;
+    box-shadow: 3px 3px 3px #cbced1, -3px -3px 7px white;
+    margin-top: -27px;
+    margin-left: 170px;
+    background-color: whitesmoke;
+}
+.plus{
+    width: 22px;
+    height: 22px;
+    border: 3px solid rgb(36, 3, 36);
+    background-color: rgb(36, 3, 36);
+    color: white;
+    text-align: center; 
+    margin-top: 7px;
+    margin-left: 5px; 
+}
+.ad2{
+    width: 90px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 12px;
+    color: rgb(36, 3, 36);
+    font-size: 14px;
+    font-weight: bolder;
+    text-transform: capitalize;
+} 
+.up{
+   width: 300px;
+   height: 50px;
+   box-shadow: 3px 3px 3px #cbced1, -3px -3px 7px white;
+   margin-top: 20px;
+   float: left;
+}
+.up button{
+    border: none;
+    background-color: white;
+    color:rgb(36, 3, 36);
+    font-weight: 100; 
+    font-size: large;
+    font: 700;
+}
+.grade{
+    margin-left: 30px;
+    margin-top: 7px;
+    margin-left: 40px;
+    font-weight: bolder;
+    color: black;
+    text-transform: capitalize;
+    font-size: large;
+    font-size: small; 
+}
+.please{
+    font-size: 9px;
+    margin-left: 40px;
+    text-transform: capitalize;
+    color: grey;
+}
+.decline{
+    width: 75px;
+    height: 20px;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-left: 210px;
+    margin-top: -25px;
+}
+.qd{
+    margin-top: 60px;
+    text-transform: capitalize;
+    font-size: 13px;
+    color: grey;
+}
+.ed{
+    float: end;
+    margin-left: 270px;
+    margin-top: -15px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: rgb(36, 3, 36);
+    font-size: 14px;
+}
+.tel{
+    width: 65px;
+    height: 40px;
+    box-shadow: 3px 3px 3px #cbced1, -3px -3px 7px white;
+    text-align: center;
+    color: orange;
+    margin-top: 11px;
+    margin-left: 10px;
+}
+.air{
+    text-transform: capitalize;
+    color: rgb(36, 3, 36);
+    font-weight: bolder;
+    font-size: 9px;
+    margin-top: 6px;
+}
+.wi{
+    width: 65px;
+    height: 40px;
+    box-shadow: 3px 3px 3px #cbced1, -3px -3px 7px white;
+    text-align: center;
+    color: red;
+    margin-top: -33px;
+    margin-left: 73px;
+    font-size: 14px;
+}
+
+.inter{
+    text-transform: capitalize;
+    color: rgb(36, 3, 36);
+    font-weight: bolder;
+    font-size: 9px;
+    margin-top: 9px;
+} 
+.be{
+    width: 65px;
+    height: 40px;
+    box-shadow: 3px 3px 3px #cbced1, -3px -3px 7px white;
+    text-align: center;
+    color: rgb(90, 90, 230);
+    margin-top: -35px;
+    margin-left: 73px;
+    font-size: 14px; 
+}
+.bet{
+    text-transform: capitalize;
+    color: rgb(36, 3, 36);
+    font-weight: bolder;
+    font-size: 9px;
+    margin-top: 9px 
+}
+.el{
+    width: 65px;
+    height: 40px;
+    box-shadow: 3px 3px 3px #cbced1, -3px -3px 7px white;
+    text-align: center;
+    color: red;
+    margin-top: -35px;
+    margin-left: 73px;
+    font-size: 14px; 
+} 
+.light{
+    text-transform: capitalize;
+    color: rgb(36, 3, 36);
+    font-weight: bolder;
+    font-size: 9px;
+    margin-top: 11px 
+}
+footer{
+    width: 330px;
+    height: 35px;
+    margin-left: -250px;
+    margin-top: 86px;
+    
+}
+.house{
+    margin-left: -280px;
+    margin-top: -6px;
+    color: grey;
+}
+.ho{
+    font-size: 9px;
+    margin-left: -277px;
+    margin-top: 2px;
+    color: grey;
+}
+.send{
+    margin-left: -130px;
+    margin-top: -27px;
+    color: grey; 
+    
+}
+.se{
+    font-size: 9px;
+    margin-left: -130px;
+    margin-top: 2px;
+    color: grey;
+}
+.pay{
+    margin-left: -1px;
+    margin-top: -25px;
+    color: grey;   
+}
+.pe{
+    font-size: 9px;
+    margin-left: 0px;
+    margin-top: -1px;
+    color: grey;
+}
+.card{
+    margin-left: 142px;
+    margin-top: -25px;
+    color: grey; 
+}
+.ca{
+    font-size: 9px;
+    margin-left: 142px;
+    margin-top: -1px;
+    color: grey;
+}
+.more{
+    margin-left: 280px;
+    margin-top: -25px;
+    color: grey; 
+}
+.mo{
+    font-size: 9px;
+    margin-left: 280px;
+    margin-top: -1px;
+    color: grey;  
+}
+.footer i:hover {
+    color: rgb(36, 3, 36);
+    cursor: pointer;
+
+}
+.mo:hover{
+    color: rgb(36, 3, 36);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+

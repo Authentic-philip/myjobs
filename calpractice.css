@@ -1,0 +1,30 @@
+.calpractice{
+    width: 350px;
+    height: 300px;
+    background-color: lightblue;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 15px;
+    border-bottom: 2px solid blue
+}
+.cancel{
+    width: 65px;
+    height: 40px;
+    background-color: red; 
+    border-color: red;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 4px;
+    font-weight: bolder;
+    
+}
+.screen{
+    width: 230px;
+    height: 40px;
+    background-color: lightblue; border-color: lightblue;
+    border-radius: 4px;
+    margin-left: 15px;
+    border: ridge;
+    text-align: end;
+    color: aliceblue;
+}

@@ -1,0 +1,63 @@
+body{
+    background-color: aqua;
+}
+.loginform{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 13px 13px 19px #cbced1, -13px -13px 19px white;
+    background: #ecf0f3;
+    margin: 0 auto;
+    margin-top: 40px; 
+}
+.round{
+    position: absolute;
+    width: 70px;
+    height: 60px;
+    border: 1px #cbced1 solid;
+    border-radius: 50%;
+    background-color: skyblue;
+    margin-left: calc(50% - 35px);
+    top: -30px; 
+}
+.mem{
+    border: none;
+    text-align: center;
+    font-size: 25px;
+    font: bolder;
+    text-transform: capitalize;
+}
+.name{
+    width: 190px;
+    height: 25px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 12px;
+    border: groove;
+}
+.password{
+    width: 190px;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 12px;
+    border: groove;
+}
+.signmeup{
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 12px;
+    border: skyblue;
+    background-color: skyblue;
+}
+.pass{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    
+}
+    

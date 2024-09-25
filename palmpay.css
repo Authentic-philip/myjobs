@@ -1,0 +1,86 @@
+body{
+    background-color: whitesmoke;
+}
+.border{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.profile{
+    display: inline-block;
+    width: 35px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 5px;
+    background-image: url("popout2.jfif");
+}
+.ff1{
+    position: absolute;
+    display:  inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: whitesmoke;
+    margin-top: 15px;
+    margin-left: 3px; 
+    text-transform: capitalize;
+    font: 10px; 
+}
+.hey{
+    width: 150px;
+    font-size: 11px;
+}
+.icon{
+    position: absolute;
+    display: inline-block;
+    width: 130px;
+    margin-left: 200px;
+    margin-top: -19px;
+}
+.icon button{
+    display: inline;
+    margin-left: 20px;
+    border: none;
+    opacity: transparent;   
+}
+.balance{
+    position: absolute;
+    width: 330px;
+    height: 60px;
+    background-color: rgb(241, 212, 241);
+    border: 3px rgb(241, 212, 241);
+    border-radius: 7px;
+    margin: 3px;
+    margin-left: -40px;
+    margin-top: 15px;
+}
+.balance button{
+    margin-top: 2px;
+    border: none rgb(241, 212, 241);
+    background-color:rgb(241, 212, 241);
+    text-transform: capitalize;
+    color: white;
+    opacity: transparent;
+    float: left;
+}
+.amount{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: -7px;
+    font: 100;
+}
+.add{
+    width:105px;
+    height: 25px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 170px;
+    border: 2px solid purple;
+    border-radius: 7px;
+    background-color: purple;
+    color: white;
+    text-align: center;
+}

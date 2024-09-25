@@ -1,0 +1,19 @@
+.NICE{
+width: 300px;
+aspect-ratio: 4/4;
+border: 3px solid red;
+margin: 0 auto;
+animation-name: troy;
+animation-duration: 3s;
+animation-timing-function: ease-in;
+animation-iteration-count: 3;
+}
+@keyframes troy{
+from{background: red;
+border-radius: 50%;
+}
+to{
+background: blue;
+border-radius: 30px;
+}
+}

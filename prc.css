@@ -1,0 +1,62 @@
+.container{
+    margin: auto;
+    margin-top: 50px;
+    width: 370px;
+    height: 500px;
+    transition: 0.6s ease-in-out;
+    borer: 1px solid black;
+}
+.border{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    boder: 1px solid white;
+    margin-top: 70px;
+    margin-left: 30px;
+    border-radius: 8px;
+}
+.imaback{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 45px;
+    width: 200px;
+    height: 130px;
+    boder: 1px solid white;
+    background-image: url("popout.jfif");
+    box-shadow: 3px 3px 3px grey, -3px -3px 3px grey;
+    border-radius: 7px;
+}
+.idman{
+    color: white;
+    background-color: green;
+    width: 30px;
+    height: 25px;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-top: 140px;
+    margin-left: 50px;border: none;
+}span{
+    background-color: transparent;
+    color: black;
+    font-size: 19px;
+    margin-left: 15px;font-weight: bolder;margin-top: 1px;position: absolute;
+}
+.maker{
+    width: 150px;
+    height: 30px;
+    text-transform: capitalize;
+    margin-left: 100px;
+    margin-top: 20px;
+    background-color: green;border: none;border-radius: 3px;color: white;display: block;opacity: 0;
+}.add{
+    height: 30px;background-color: green;width: 90px;border: none;border-radius: 3px;margin-left: 130px;
+    margin-top: 10px;text-transform: capitalize;color: white;display: block;opacity: 0;
+}
+.container:hover{
+    margin-top: -5px;border: .5px solid grey;bordr: none;
+}.container:hover .maker, .container:hover .add{
+    background-color: green;font-size: 14px;opacity: 9;
+}
+.container:hover .border{
+    box-shadow: 3px 3px 3px grey, -3px -3px 3px grey;
+}

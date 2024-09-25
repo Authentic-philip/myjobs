@@ -1,0 +1,44 @@
+.dropdown{
+    margin-top: 100px;
+    width: 200px;
+    height: 50px;
+    margin-top: 60px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif
+    
+}
+.content{
+    width: 200px;
+    height: 0px;
+    boder: 1px solid black;
+    margin-top: 1px;
+    transition: 2s all;
+    background-color: white;
+    overflow: hidden;
+    
+}
+.dropdown:hover .content{
+    bacground-color: blue;
+    height: 300px;
+}
+.am{
+    color: grey;
+    font-size: 12px;
+    overflow: hidden;
+}
+.am1{
+    color: grey;
+    font-size: 12px;
+    overflow: hidden;
+}
+.am2{
+    color: grey;
+    font-size: 12px;
+    overflow: hidden;
+}
+.am3{
+    color: grey;
+    font-size: 12px;
+    overflow: hidden;
+}

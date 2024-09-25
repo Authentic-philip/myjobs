@@ -1,0 +1,1097 @@
+body{
+    margin: 0;
+    background-color: rgb(48, 44, 44);
+}.shared{
+    position: relative;
+    width: 33.33%;
+    height: calc(100vh - 20px);
+    display: inline-block;
+    overflow: auto;
+}.sidemenu{
+    width: 300px;
+    float: left;
+}.middle{
+    width: 660px;
+    margin-left: 40px;
+    float: left;
+}.dropdownx{
+    width: 200px;
+    height: auto;
+    margin-top: 5px;
+}.content{
+    width: 300px;
+    height: 0px;
+    transition: 1s all;
+    overflow: hidden;
+    background: yellow;
+}.dropdownx:hover .content{
+    background: green;
+    height: 300px;
+}::-webkit-scrollbar{
+    display: none;
+}
+
+.shared3{
+    width: 300px;
+    float: right;
+}
+.firstborder{
+    width: calc(100% - 2px);
+    height: 50px;
+    brder: 1px solid grey;
+    background-color: rgb(48, 44, 44);
+}
+.fb{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 2.5px;
+    border: none;
+    background-color: rgb(24, 109, 189);
+    color: white;
+    font-size: 25px;
+}
+#se1{
+    position: absolute;
+    height: 30px;
+    border-radius: 20px;
+    padding-left: 25px;
+    background: rgb(56, 45, 45);
+    color: rgb(175, 171, 171);
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+}
+.search{
+    position: absolute;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 11px;
+    border: none;
+    background: none;
+    color: rgb(175, 171, 171);
+    z-index: 1;
+}
+.con{
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    height: 50px;
+    margin-left: calc(25% - 50px);
+    margin-top: -1px;
+}
+.con button{
+    width: 20%;
+    height: 100%;
+    float: left;
+    border: none;
+    background-color: rgb(48, 44, 44);
+    color: rgb(175, 171, 171);
+    font-size: 20px;
+}
+.con button:hover{
+    color: rgb(24, 109, 189);
+    border-bottom:1px solid rgb(24, 109, 189);
+}
+.rightborder{
+    display: inline-block;
+    width: 16%;
+    height: 50px;
+    boder: 1px solid white;
+    float: right;
+}
+.rightborder button{
+    width: 40px;
+    aspect-ratio: 4/4;
+    float: left;
+    margin-left: 6%;
+    margin-top: 4px;
+    border-radius: 50px;
+    font-size: 17px;
+    color: white;
+    border: none;
+    background-color: rgb(56, 45, 45);
+}
+.one{
+    position: absolute;
+    color: white;
+    margin-top: 1px;
+    margin-left: 145px;
+    width: 13px;
+    height: 15px;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 50px;
+    text-align: center;
+    
+}
+.back{
+    background-image: url("popout.jfif");
+    background-size: 100% 100%;
+}
+.users{
+    width: 28px;
+    height: 25px;
+    aspect-ratio: 4/4;
+    border: 1px solid blue;
+    border-radius: 50%;
+    color: white;
+    margin-top: 4px;
+    margin-left: 4px;
+    background-color: blue;
+    font-size: 13px;
+}
+.gp{
+    color: white;
+    margin-top: -20px;
+    margin-left: 45px;
+    font: bolder;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.tv{
+    width: 28px;
+    height: 25px;
+    aspect-ratio: 4/4;
+    border: 1px solid blue;
+    border-radius: 50%;
+    color: white;
+    margin-top: 15px;
+    margin-left: 4px;
+    background-color: blue;
+    font-size: 13px;
+}
+.ve{
+    color: white;
+    margin-top: -20px;
+    margin-left: 45px;
+    font: bolder;
+    text-transform: capitalize;
+    font-size: 16px;  
+}
+.market{
+    width: 28px;
+    height: 25px;
+    aspect-ratio: 4/4;
+    border: 1px solid blue;
+    border-radius: 50%;
+    color: white;
+    margin-top: 15px;
+    margin-left: 4px;
+    background-color: blue;
+    font-size: 13px;
+}
+.ma{
+    color: white;
+    margin-top: -20px;
+    margin-left: 45px;
+    font: bolder;
+    text-transform: capitalize;
+    font-size: 16px; 
+}
+.feed{
+    width: 28px;
+    height: 25px;
+    aspect-ratio: 4/4;
+    border: 1px solid blue;
+    border-radius: 50%;
+    color: white;
+    margin-top: 15px;
+    margin-left: 4px;
+    background-color: blue;
+    font-size: 13px;
+}
+.fe{
+    color: white;
+    margin-top: -20px;
+    margin-left: 45px;
+    font: bolder;
+    text-transform: capitalize;
+    font-size: 16px; 
+}
+.down{
+    width: 28px;
+    height: 25px;
+    aspect-ratio: 4/4;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    margin-top: 15px;
+    margin-left: 4px;
+    background-color: rgba(43, 31, 31, 0.671);
+    font-size: 13px; 
+}
+.do{
+    color: white;
+    margin-top: -20px;
+    margin-left: 45px;
+    font: bolder;
+    text-transform: capitalize;
+    font-size: 16px; 
+} 
+.pic1{
+    width: 130px;
+    height: 170px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 7px;
+    margin-left: 9px;
+    background-image: url("popout.jfif");
+    background-size: 100% 100%;
+}
+.pp{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    border: none;
+    order-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-top: 125px;
+    background-color: rgb(73, 69, 69);
+}
+.round{
+    position: absolute;
+    width: 22px;
+    height: 18px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    margin-top: 120px;
+    margin-left: 55px;
+}
+.create{
+    position: absolute;
+    color: white;
+    font-size: 9px;
+    text-transform: capitalize;
+    margin-top: 144px;
+    margin-left: 42px;
+}
+.story1{
+    position: absolute;
+    width: 130px;
+    height: 170px;
+    border: none;
+    border-radius: 8px;
+    margin-top: -170px;
+    margin-left: 175px;
+    background-image: url("popout.jfif");
+    background-size: 100% 100%;
+}
+.kdot{
+    position: absolute;
+    color: white;
+    margin-left: 190px;
+    margin-top: -28px;
+    font-size: 10px;
+    text-transform: capitalize;
+}
+
+.story2{
+    width: 130px;
+    height: 170px;
+    border: none;
+    border-radius: 8px;
+    margin-top: -169px;
+    margin-left: 340px;
+    background-image: url("popout.jfif");
+    background-size: 100% 100%;
+}
+.kenny{
+    position: absolute;
+    color: white;
+    margin-left: 360px;
+    margin-top: -28px;
+    font-size: 10px;
+    text-transform: capitalize;
+}
+.story3{
+    width: 130px;
+    height: 170px;
+    border: none;
+    border-radius: 8px;
+    margin-top: -170px;
+    margin-left: 500px;
+    background-image: url("popout.jfif");
+    background-size: 100% 100%;
+}
+.ken{
+    position: absolute;
+    color: white;
+    margin-left: 510px;
+    margin-top: -28px;
+    font-size: 10px;
+    text-transform: capitalize;
+}
+.end{
+    width: 280px;
+    height: 180px;
+    border: none;
+    float: right;
+    margin-top: -250px;
+}
+.round1{
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 4px;
+    margin-left: 5px;
+    background-image: url("popout.jfif");
+    background-size: 100% 100%;
+}
+.dow1{
+    width: 4px;
+    height: 4px;
+    border: 1px solid green;
+    background-color: green;
+    margin-left: 26px;
+    margin-top: -9px;
+    border-radius: 50px;
+}
+.gkmc1{
+    color: white;
+    margin-left: 37px;
+    margin-top: -21px;
+    text-transform: capitalize;
+}
+.round2{
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-left: 5px;
+    background-image: url("popout.jfif");
+    background-size: 100% 100%;
+}
+.dow2{
+    width: 4px;
+    height: 4px;
+    border: 1px solid green;
+    background-color: green;
+    margin-left: 26px;
+    margin-top: -9px;
+    border-radius: 50px;
+}
+.album2{
+    color: white;
+    margin-left: 37px;
+    margin-top: -20px;
+    text-transform: capitalize;
+}
+.round3{
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-left: 5px;
+    background-image: url("popout.jfif");
+    background-size: 100% 100%;
+}
+.dow3{
+    width: 4px;
+    height: 4px;
+    border: 1px solid green;
+    background-color: green;
+    margin-left: 26px;
+    margin-top: -9px; 
+    border-radius: 50px;
+}
+.album3{
+    color: white;
+    margin-left: 37px;
+    margin-top: -20px;
+    text-transform: capitalize;
+}
+.round4{
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-left: 5px;
+    background-image: url("popout.jfif");
+    background-size: 100% 100%;
+}
+.dow4{
+    width: 4px;
+    height: 4px;
+    border: 1px solid green;
+    background-color: green;
+    margin-left: 26px;
+    margin-top: -9px; 
+    border-radius: 50%;
+}
+.album4{
+    color: white;
+    margin-left: 37px;
+    margin-top: -20px;
+    text-transform: capitalize;
+}
+.round5{
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-left: 5px;
+    background-image: url("popout.jfif");
+    background-size: 100% 100%;
+}
+.dow5{
+    width: 4px;
+    height: 4px;
+    border: 1px solid green;
+    background-color: green;
+    margin-left: 26px;
+    margin-top: -9px; 
+    border-radius: 50%;
+}
+.album5{
+    color: white;
+    margin-left: 37px;
+    margin-top: -20px;
+    text-transform: capitalize;
+}
+.round6{
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-left: 5px;
+    background-image: url("popout.jfif");
+    background-size: 100% 100%;
+}
+.dow6{
+    width: 4px;
+    height: 4px;
+    border: 1px solid green;
+    background-color: green;
+    margin-left: 26px;
+    margin-top: -9px; 
+    border-radius: 50%;
+}
+.album6{
+    color: white;
+    margin-left: 37px;
+    margin-top: -20px;
+    text-transform: capitalize;
+}
+.round7{
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-left: 5px;
+    background-image: url("popout.jfif");
+    background-size: 100% 100%;
+}
+.dow7{
+    width: 4px;
+    height: 4px;
+    border: 1px solid green;
+    background-color: green;
+    margin-left: 26px;
+    margin-top: -9px; 
+    border-radius: 50%;
+}
+.album7{
+    color: white;
+    margin-left: 37px;
+    margin-top: -20px;
+    text-transform: capitalize;
+}
+.round8{
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-left: 5px;
+    background-image: url("popout.jfif");
+    background-size: 100% 100%;
+}
+.dow8{
+    width: 4px;
+    height: 4px;
+    border: 1px solid green;
+    background-color: green;
+    margin-left: 26px;
+    margin-top: -9px; 
+    border-radius: 50%;
+}
+.album8{
+    color: white;
+    margin-left: 37px;
+    margin-top: -20px;
+    text-transform: capitalize;
+}
+.round9{
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-left: 5px;
+    background-image: url("popout.jfif");
+    background-size: 100% 100%;
+}
+.dow9{
+    width: 4px;
+    height: 4px;
+    border: 1px solid green;
+    background-color: green;
+    margin-left: 26px;
+    margin-top: -9px; 
+    border-radius: 50%;
+}
+.album9{
+    color: white;
+    margin-left: 37px;
+    margin-top: -20px;
+    text-transform: capitalize;
+}
+.round10{
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-left: 5px;
+    background-image: url("popout.jfif");
+    background-size: 100% 100%;
+}
+.dow10{
+    width: 4px;
+    height: 4px;
+    border: 1px solid green;
+    background-color: green;
+    margin-left: 26px;
+    margin-top: -9px; 
+    border-radius: 50%;
+}
+.album10{
+    color: white;
+    margin-left: 37px;
+    margin-top: -20px;
+    text-transform: capitalize;
+}
+.lining{
+    width: 100%;
+    border: 1px solid grey;
+    margin-top: 40px;
+}
+.your{
+    text-transform: capitalize;
+    color: grey;
+    margin-top: 15px;
+}
+.ourr{
+    text-transform: capitalize;
+    color: grey;
+    margin-top: 10px;
+}
+.last{
+    width: 280px;
+    border: none;
+    margin-top: 13px;
+}
+.box1{
+    width: 30px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 6px;
+    background-image: url("popout.jfif");
+}
+.say{
+    color: white;
+    font: bolder;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 50px;
+    margin-top: -20px;
+    font-size: 15px;
+}
+.coincontainer{
+    margin-top: 15px;
+    color: white;
+    background-color: black;
+    width: 30px;
+    height: 25px;
+    margin-left: 6px;
+    border-radius: 4px;
+    border: none;
+}
+.blum{
+    color: white;
+    text-transform: capitalize;
+    font: bold;
+    margin-left: 48px;
+    margin-top: -20px;
+}
+.box3{
+    width: 30px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 6px;
+    background-image: url("popout.jfif");
+}
+.musk{
+    color: white;
+    font: bolder;
+    text-transform: capitalize;
+    margin-left: 50px;
+    margin-top: -20px;
+    font-size: 15px;
+}
+.coincontainer1{
+    margin-top: 15px;
+    color: white;
+    background-color: black;
+    width: 30px;
+    height: 25px;
+    margin-left: 6px;
+    border-radius: 4px;
+    border: none;
+}
+.blum1{
+    color: white;
+    text-transform: capitalize;
+    font: bold;
+    margin-left: 48px;
+    margin-top: -20px;
+}
+.box4{
+    width: 30px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 6px;
+    background-image: url("popout.jfif");
+}
+.sq{
+    color: white;
+    font: bolder;
+    text-transform: capitalize;
+    margin-left: 50px;
+    margin-top: -20px;
+    font-size: 15px;
+}
+.dw{
+    width: 28px;
+    height: 25px;
+    aspect-ratio: 4/4;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    margin-top: 15px;
+    margin-left: 4px;
+    background-color: rgba(43, 31, 31, 0.671);
+    font-size: 13px; 
+}
+.see{
+    color: white;
+    margin-top: -20px;
+    margin-left: 45px;
+    font: bolder;
+    text-transform: capitalize;
+    font-size: 16px; 
+}
+.cen{
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 450px;
+    height: 110px;
+    border: 1px solid rgba(43, 31, 31, 0.671);
+    border-radius: 6px;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    background-image: url(popout.jfif);
+    background-size: 100% 100%;
+    margin-top: 10px;
+    margin-left: 18px;
+}
+#whats{
+    position: absolute;
+    width: 365px;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin-left: 55px;
+    margin-top: -32px;
+    background-color: rgba(107, 98, 98, 0.671);
+}
+.cam{
+    position: absolute;
+    color: red;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 18px;
+}
+.vid{
+    color: white;
+    margin-left: 62px;
+    margin-top: 19px;
+    text-transform: capitalize;
+    font: bolder;
+}
+.ima{
+    position: absolute;
+    color: rgb(88, 165, 88);
+    font-size: 18px;
+    margin-left: 160px;
+    margin-top: -18px; 
+}
+.man{
+    color: white;
+    margin-left: 190px;
+    margin-top: -18px;
+    text-transform: capitalize;
+    font: bolder;
+}
+.smile{
+    position: absolute;
+    color: rgb(197, 197, 69);
+    font-size: 18px;
+    margin-left: 290px;
+    margin-top: -18px; 
+}
+.fel{
+    color: white;
+    margin-left: 320px;
+    margin-top: -18px;
+    text-transform: capitalize;
+    font: bolder;
+}
+.midleman{
+    display: block;
+    margin: 0 auto;
+    width: 450px;
+    height: 385px;
+    border: rgb(48, 44, 44);
+    margn-left: 430px;
+    margin-top: 15px;
+    border-radius: 6px;
+    background-image: url("popout2.jfif");
+    background-size: 100% 100%;
+}
+.topp{
+    width: 450px;
+    height: 50px;
+    background-color: rgb(48, 44, 44);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.ron{
+    width: 35px;
+    height: 32px;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-top: -41px;
+    margin-left: 10px;
+    background-image: url("popout.jfif");
+    border: none;
+}
+.da{
+    color: white;
+    font: bolder;
+    text-transform: capitalize;
+    margin-left: 53px;
+    margin-top: -27px;
+    font-size: 12px;
+}
+.dayago{
+    position: absolute;
+    color: grey;
+    margin-left: 53px;
+    font-size: 9px;
+    margin-top: 5px;
+}
+.earth{
+    position: absolute;
+    color: grey;
+    font-size: 9px;
+    margin-left: 76px;
+    margin-top: 5px;
+}
+.follow{
+    position: absolute;
+    margin-left: 110px;
+    margin-top: -18px;
+    text-transform: capitalize;
+    font: bolder;
+    color: rgb(24, 109, 189);
+
+}
+.dots{
+    color: grey;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    margin-right: 55px;
+    margin-top: -25px;
+}
+.xxx{
+    color: grey;
+    float: right;
+    margin-right: -55px;
+    margin-top: -9px;
+
+}
+.lin{
+    width: 230px;
+    color: grey;
+    float: inline-end;
+    border: 1px solid grey;
+    margin-top: 57px;
+}
+.own{
+    width: 28px;
+    height: 25px;
+    aspect-ratio: 4/4;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    margin-top: 105px;
+    margin-left: 4px;
+    background-color: rgba(43, 31, 31, 0.671);
+    font-size: 13px; 
+}
+.more{
+    color: white;
+    margin-top: -20px;
+    margin-left: 45px;
+    font: bolder;
+    text-transform: capitalize;
+    font-size: 16px; 
+} 
+.inlineend{
+    width: 220px;
+    height: 100px;
+    border: none;
+    float: right;
+    margin-right: 56px;
+    margin-top: -50px;
+}
+.round11{
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 60px;
+    margin-left: -18px;
+    background-image: url("popout.jfif");
+    background-size: 100% 100%;
+}
+.dow11{
+    width: 4px;
+    height: 4px;
+    border: 1px solid green;
+    background-color: green;
+    margin-left: 1px;
+    margin-top: -9px; 
+    border-radius: 50%;
+}
+.album11{
+    color: white;
+    margin-left: 17px;
+    margin-top: -20px;
+    text-transform: capitalize;
+}.mon34{
+    margin-top: 14px;
+}
+.money{
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-left: 5px;
+    background-image: url("popout.jfif");
+    background-size: 100% 100%;
+}
+.tree{
+    width: 4px;
+    height: 4px;
+    border: 1px solid green;
+    background-color: green;
+    margin-left: 26px;
+    margin-top: -9px; 
+    border-radius: 50%;
+}
+.all{
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-left: 5px;
+    background-image: url("popout.jfif");
+    background-size: 100% 100%;
+}
+.stars{
+    width: 4px;
+    height: 4px;
+    border: 1px solid green;
+    background-color: green;
+    margin-left: 26px;
+    margin-top: -9px; 
+    border-radius: 50%;
+}
+.allstars{
+    color: white;
+    margin-left: 37px;
+    margin-top: -20px;
+    text-transform: capitalize;
+}
+.note{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    position: fixed;
+    right: 0;
+    bottom: 20px;
+    margin-top: 15px;
+    border: none;
+    background-color: grey;
+}
+.buttom{
+    width: 250px;
+    height: 55px;
+    border: none;
+    margn-top: 20px;
+    margin-left: 5px;
+}
+.privacy{
+    color: white;
+    font-size: 9px;
+    text-transform: capitalize;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.dot{
+    margin-left: 30px;
+    color: white;
+    margn-top: -17px;
+    magin-left: 35px;
+}
+.terms{
+    color: white;
+    font-size: 9px;
+    text-transform: capitalize;
+    margin-top: -10px;
+    margin-left: 45px; 
+}
+.dot1{
+    margin-left: 30px;
+    color: white;
+    margin-top: -17px;
+    margin-left: 70px;
+}
+.adver{
+    color: white;
+    font-size: 9px;
+    text-transform: capitalize;
+    margin-top: -10px;
+    margin-left: 80px;
+}
+.dot2{
+    margin-left: 30px;
+    color: white;
+    margin-top: -17px;
+    margin-left: 125px;
+}
+.ad{
+    color: white;
+    font-size: 9px;
+    text-transform: capitalize;
+    margin-top: -10px;
+    margin-left: 133px;
+    opacity: transparent; 
+}
+.id{
+    color: white;
+    font-size: 10px;
+    margin-left: 178px;
+    margin-top: -10px;
+}
+.dot3{
+    margin-left: 193px;
+    margin-top: -18px;
+    color: white;
+}
+.cook{
+    color: white;
+    font-size: 9px;
+    text-transform: capitalize;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+.dot4{
+    margin-left: 30px;
+    color: white;
+    margin-top: -17px;
+    margin-left: 37px;
+}
+.more1{
+    color: white;
+    font-size: 9px;
+    text-transform: capitalize;
+    margin-top: -11px;
+    margin-left: 45px;
+}
+.dot5{
+    margin-left: 30px;
+    color: white;
+    margin-top: -17px;
+    margin-left: 70px;
+}
+.meta{
+    color: white;
+    font-size: 9px;
+    text-transform: capitalize;
+    margin-top: -10px;
+    margin-left: 80px; 
+}
+.co{
+    color: white;
+    font-size: 9px;
+    margin-left: 103px;
+    margin-top: -10px;
+    opacity: transparent;
+}
+.dot6{
+    margin-left: 118px;
+    margin-top: -10px;
+    color: white;
+    font-size: 10px;
+}.dropdown{
+    
+    width: 220px;
+    height: 50px;
+    background: red;
+}
+
+@media only screen and(min-width: 786px){
+    body{
+        background: red;
+    }
+}

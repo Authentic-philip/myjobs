@@ -1,0 +1,217 @@
+body{
+    background-color: white;
+    margin: 0%;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(5, 5, 75);
+    background-color: rgb(5, 5, 75);
+}
+.header button{
+    float: right;
+    margin-right: 20px;
+    text-transform: uppercase;
+    background-color: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    margin-top: 10px;
+}
+.one{
+    border: 1px solid white;
+    height: 23px;
+    width: 10px;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    margin-left: 77%;
+    margin-top: 5px;
+}
+.header,button:hover{
+    color: grey;
+}
+.secondheader{
+    width: 100%;
+    height: 100px;
+    border: 1px solid white;
+    box-shadow: 5px 5px 5px grey, -1px -1px 1px white;
+}
+.ID{
+    width: 80px;
+    height: 70px;
+    border: 1px solid rgb(59, 59, 180);
+    margin-top: 7px;
+    margin-left: 30px;
+    background: rgb(59, 59, 180);
+    border-radius: 5px;
+}
+.creator{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(5, 5, 75);
+    text-transform: uppercase;
+    margin-left: 120px;
+    margin-top: -65px;
+}
+input{
+    position: absolute;
+    width: 450px;
+    height: 35px;
+    margin-left: 35%;
+    margin-top: -55px;
+    border-radius: 19px;
+    padding-left: 20px;
+    border: 1px solid rgb(5, 5, 75);
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.single{
+    position: absolute;
+    border: 1px solid rgb(5, 5, 75);
+    height: 37px;
+    width: 10px;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    margin-left: 65%;
+    margin-top: -54px; 
+}
+.call{
+    position: absolute;
+    margin-left: 83%;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    color: rgb(5, 5, 75);
+    margin-top: -50px;
+}
+.num{
+    float: right;
+    margin-top: -50px;
+    margin-right: 80px;
+}
+.line{
+    margin: 0%;
+    width: 100%;
+    height: 40px;
+    boder: 1px solid black;
+    margin-top: 20px;
+}
+.get{
+    display: inline-block;
+    padding-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.dropdown{
+    display: inline-block;
+    padding-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.content{
+    position: absolute;
+    width: 1200px;
+    height: 0px;
+    bordr: 1px solid black;
+    margin-left: -240px;
+    color: black;
+    font-size: 14px;
+    font-family: none;
+    transtion: 2s ease-in-out;
+    text-transform: capitalize;
+    padding-left: 40px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px white, -5px -5px 5px white;
+}.list{
+    display: inline-block;
+    margin-left: 20px;
+}
+.list a{
+ color: black;
+ display: inline-block;
+ margin-top: 7px;
+ text-decoration: none;
+}a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.dropdown:hover .content{
+    background-color: white;
+    cursor: pointer;
+    position: absolute;
+    width: 1200px;
+    height: 200px;
+    transition: 0.4s;
+}
+.fourth{
+    width: 96%;
+    height: 40px;
+    border: 1px solid rgb(5, 5, 75);
+    background-color: rgb(5, 5, 75);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.fourth button{
+    margin-top: 10px;
+    margin-left: 60px;
+    font-size: 11px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+span{
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.card{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.bad{
+    color: rgb(5, 5, 75);
+    text-transform: capitalize;
+    margin-left: 3px;
+}
+.bad:hover{
+    text-decoration: underline;
+}.container{
+    position: absolute;
+    width: 24%;
+    height: 400px;
+    transition: .4s all ease-in-out;
+    display: inline-block;
+    clear: both;
+    margin-top: 50px;
+    border: .1px dashed gray;
+}.container .img{
+    width: 70%;box-shadow: 2px 3px 5px gray;
+    height: 130px;background: red;border-radius: 12px;
+    margin-left: 15%;position: absolute;margin-top: 20%;
+}.sitename{
+    width: 80%;position: absolute;
+    margin-left: 10%;font-size: 20px; font-weight: bold;
+    text-align: end;margin-top: 210px;border: none;background: none;
+}.sitename span{ display: inline-block;padding: 4px;
+    background:  rgb(5, 5, 75);color: white;
+}.wrap_img{
+    width: 90%;margin-top: 5%;margin-left: 5 %;height: 270px;position: relative;border-radius: 14px;
+}.marker, .cart{
+    display: block;width: 60%;padding: 5px;height: 35px;color: white;font-weight: bold;background: none;
+    margin: auto;margin-top: 20px;border: none;border-radius: 8px;background: rgb(5, 5, 75);opacity: 0;
+    transition: 1s all ease-in-out;
+}.cart{
+    width: 40%;height: 40px;
+}.container:hover{ 
+    margin-top: -5px;border: .5px solid rgb(235, 231, 231);border: none;
+}.container:hover .marker, .container:hover .cart{
+    background: rgb(5, 5, 75);font-size: 10px;opacity: 9;
+}.container:hover .wrap_img{
+    box-shadow: 2px 3px 4px gray;
+}
